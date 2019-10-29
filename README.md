@@ -17,11 +17,11 @@ To make everything work you need to implement (see [Examples](#Examples)) some t
 - [Leaflet.EasyButton](https://github.com/CliffCloud/Leaflet.EasyButton)
 - [Leaflet.Geodesic](https://github.com/henrythasler/Leaflet.Geodesic)
 
-Then, manually download and link the lightstorymap.js and lightstorymap.css in your HTML (and the libraries from above). 
+Then, manually download and link the lightstorymap.js and lightstorymap.css (or the minified versions) in your HTML (and the libraries from above). 
 
 ```html
-<link rel="stylesheet" href="path/to/lightstorymap.css" />
-<script src="path/to/lightstorymap.js"></script>
+<link rel="stylesheet" href="path/to/lightstorymap.min.css" />
+<script src="path/to/lightstorymap.min.js"></script>
 ```
 and before the closing <body> tag initialize it on any element you want. 
 ```html
