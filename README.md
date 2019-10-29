@@ -48,7 +48,7 @@ Look at [life.json](life.json) for an example and to see the basic structure.
 <body>
 	<div id="lifestorymap"></div>
 	<script type="text/javascript">
-		new LifeStoryMap("lifestorymap");
+		new LifeStoryMap("lifestorymap", "life.json");
 	</script>
 </body>
 ```
