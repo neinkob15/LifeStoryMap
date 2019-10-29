@@ -15,7 +15,7 @@ class LifeStoryMap {
     var mymap = L.map(mapid, {zoomControl: false});
     L.tileLayer('https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
       maxZoom: 18,
-      attribution: '© Google Maps',
+      attribution: 'see <a href="https://github.com/neinkob15/LifeStoryMap">LifeStoryMap™</a>',
       subdomains:['mt0','mt1','mt2','mt3'],
     }).addTo(mymap);
 
