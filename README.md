@@ -66,4 +66,4 @@ lineOptions	|object		|`{}`		|Settings for the lines, all of https://github.com/h
 Feel free to report any issues! 
 
 ## License
-This project is licensed under the MIT License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
