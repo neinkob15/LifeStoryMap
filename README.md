@@ -1,4 +1,4 @@
-# Leaflet.LifeStoryMap
+# LifeStoryMap
 
 LifeStoryMap is a addon for leaflet which enables the creation of so-called LifeStoryMap. It is a way to illustrate your previous life on a map.
 
