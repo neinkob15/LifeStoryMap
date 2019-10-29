@@ -56,7 +56,7 @@ Look at [life.json](life.json) for an example and to see the basic structure.
 ## Options
 You can pass options to the LifeStoryMap like this:
 ```javascript
-new LifeStoryMap("lifestorymap", {
+new LifeStoryMap("lifestorymap", "life.json", {
 	loop: true,
 	zoomLevel: 12,
 	vOffset: 0.04,
