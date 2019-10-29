@@ -1,0 +1,16 @@
+{
+  "milestones": [
+    {
+      "location": [4.965312, -2.469563],
+      "title": "Where it all started...",
+      "date": "15.04.1999",
+      "image": "img/lifeMap/birth.jpg",
+      "description": "This is the place where I was born. ..."
+    }, {
+      "location": [49.035709, 8.711262],
+      "title": "My hometown",
+      "date": "2002",
+      "description": "When I was three years old ..."
+    }
+  ]
+}

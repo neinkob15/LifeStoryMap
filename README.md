@@ -1,4 +1,4 @@
-# LifeStoryMap
+# Leaflet.LifeStoryMap
 
 LifeStoryMap is a addon for leaflet which enables the creation of so-called LifeStoryMap. It is a way to illustrate your previous life on a map.
 
@@ -12,7 +12,12 @@ LifeStoryMap is a addon for leaflet which enables the creation of so-called Life
 You can check the live demo on my personal homepage right here: [jakobgietl.de](https://jakobgietl.de/lifeMap.html)
 
 ## Usage
-Manually download and link the lightstorymap.js and lightstorymap.css in your HTML:
+To make everything work you need some third-party libraries, listed below:
+- [Leaflet.js](https://leafletjs.com/)
+- [Leaflet.EasyButton](https://github.com/CliffCloud/Leaflet.EasyButton)
+- [Leaflet.Geodesic](https://github.com/henrythasler/Leaflet.Geodesic)
+
+Then, manually download and link the lightstorymap.js and lightstorymap.css in your HTML (and the libraries from above). 
 
 ```html
 <link rel="stylesheet" href="path/to/lightstorymap.css" />
@@ -21,13 +26,22 @@ Manually download and link the lightstorymap.js and lightstorymap.css in your HT
 and before the closing <body> tag initialize it on any element you want. 
 ```html
 <script type="text/javascript">
-	new LifeStoryMap("someID");
+	new LifeStoryMap("someID", "path/to/your/life.json");
 </script>
 ```
+The life.json is a file which contains all your important stations in life, that you want to visualize. 
+Look at [life.json](life.json) for an example and to see the basic structure.
 
 ## Examples
 ```html
 <head>
+	<!-- Third-pary libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+    <script src="js/Leaflet.Geodesic.js"></script>
+
+	<!-- LightStoryMap -->
 	<link rel="stylesheet" href="path/to/lightstorymap.css" />
 	<script src="path/to/lightstorymap.js"></script>
 </head>
@@ -63,7 +77,7 @@ linesBetween|boolean	|`false`	|Enables the drawing of lines between the stations
 lineOptions	|object		|`{}`		|Settings for the lines, all of https://github.com/henrythasler/Leaflet.Geodesic#options
 
 ## Contributing
-Feel free to report any issues! 
+Feel free to report any issues or implement your own features!
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
