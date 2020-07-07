@@ -13,6 +13,8 @@ You can check the live demo on my personal homepage right here: [jakobgietl.de](
 
 ## Usage
 To make everything work you need to implement (see [Examples](#Examples)) some third-party libraries, listed below:
+- [JQuery.js](https://jquery.com)
+- [Fontawesome](https://fontawesome.com)
 - [Leaflet.js](https://leafletjs.com/)
 - [Leaflet.EasyButton](https://github.com/CliffCloud/Leaflet.EasyButton)
 - [Leaflet.Geodesic](https://github.com/henrythasler/Leaflet.Geodesic)
@@ -36,10 +38,13 @@ Look at [life.json](life.json) for an example and to see the basic structure.
 ```html
 <head>
 	<!-- Third-pary libraries -->
-    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css">
 	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
-    	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
-    	<script src="js/Leaflet.Geodesic.js"></script>
+	<script src="js/Leaflet.Geodesic.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/fontawesome.css" />
 
 	<!-- LightStoryMap -->
 	<link rel="stylesheet" href="path/to/lightstorymap.css" />
