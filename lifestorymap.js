@@ -93,12 +93,12 @@ class LifeStoryMap {
       let descriptionString = "<div class='popupDescription'>" + description + "</div>";
       let buttonString = "";
       if (notLast) {
-        buttonString = "<div style='height: 35px; margin-top: 10px;'><a href='#' class='link link" + number + "' style='color: black; float: right; font-size: 20px; display: inline-block; margin: 0 20px;'>Next Milestone</a></div>";
+        buttonString = "<div style='height: 35px; margin-top: 10px;'><a class='link link" + number + "' style='color: black; float: right; font-size: 20px; display: inline-block; margin: 0 20px;'>Next Milestone</a></div>";
       } else {
         if (options.loop) {
-          buttonString = "<div style='height: 35px; margin-top: 10px;'><a href='#' class='link link" + number + "' style='color: black; float: right; font-size: 20px; display: inline-block; margin: 0 20px;'>Start over</a></div>";
+          buttonString = "<div style='height: 35px; margin-top: 10px;'><a class='link link" + number + "' style='color: black; float: right; font-size: 20px; display: inline-block; margin: 0 20px;'>Start over</a></div>";
         } else {
-          buttonString = "<div style='height: 35px; margin-top: 10px;'><a href='#' class='link link" + number + "' style='color: black; float: right; font-size: 20px; display: inline-block; margin: 0 20px;'>Overview</a></div>";
+          buttonString = "<div style='height: 35px; margin-top: 10px;'><a class='link link" + number + "' style='color: black; float: right; font-size: 20px; display: inline-block; margin: 0 20px;'>Overview</a></div>";
         }
       }
       return titleString + dateString + imageString + descriptionString + buttonString;
