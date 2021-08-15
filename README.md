@@ -9,7 +9,7 @@ LifeStoryMap is a addon for leaflet which enables the creation of so-called Life
 - **JSON-based** - provide a JSON file with your personal content, and you're ready to go
 
 ## Life Demo
-You can check the live demo on my personal homepage right here: [jakobgietl.de](https://jakobgietl.de/lifeMap.html)
+-- Currently not available --
 
 ## Usage
 To make everything work you need to implement (see [Examples](#Examples)) some third-party libraries, listed below:
